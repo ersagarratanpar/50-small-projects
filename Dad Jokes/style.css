@@ -1,0 +1,62 @@
+@import url('https://font.googleapin.com/css?family=muli&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+    font-family: 'muli', sans-serif;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.container {
+    background-color: aquamarine;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.2);
+    padding: 50px 20px;
+    text-align: center;
+    width: 750px;
+    max-width: 100%;
+}
+
+.joke {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+h3 {
+    opacity: 0.5;
+    margin: 0;
+    letter-spacing: 2px;
+
+}
+
+.btn {
+    background-color: blueviolet;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.2);;
+    padding: 14px 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.btn:focus {
+    outline: 0;
+}
